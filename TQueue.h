@@ -54,6 +54,7 @@ inline void TQueue<T>::Enq(const T obj)
 	{
 		arr[NextIndex(head)] = obj;
 		head = NextIndex(head);
+		element_counter++;
 	}
 	else
 	{

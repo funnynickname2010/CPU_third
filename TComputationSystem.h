@@ -22,6 +22,8 @@ public:
 	unsigned int cpu_idle = 0;
 	unsigned int cpu_summed_calculation_time = 0;
 
+	unsigned int current_task_number;
+
 	void NextTic();
 	void AllTheTics();
 };
